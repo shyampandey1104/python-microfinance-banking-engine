@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_microfinance_banking_engine"
+version = "1.0.0"
+description = "Python Microfinance Banking Engine - Production Grade Python Engine"
+authors = [{ name = "Shyamkumar Pandey", email = "shyampandey1104@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=7.0.0"
+]
